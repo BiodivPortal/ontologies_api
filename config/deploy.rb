@@ -1,4 +1,4 @@
-set :repo_url, "git@github.com:biodivportal/ontologies_api.git"
+set :repo_url, "https://github.com/biodivportal/ontologies_api.git"
 set :user, 'ontoportal'
 
 set :deploy_to, '/srv/ontoportal/ontologies_api'
@@ -23,5 +23,3 @@ append :linked_files, "config/environments/appliance.rb"
 
 append :linked_dirs, 'logs', '.bundle'
 set :keep_releases, 2
-
-
