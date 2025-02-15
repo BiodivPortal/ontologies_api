@@ -46,7 +46,6 @@ gem 'unicorn-worker-killer'
 
 # Templating
 gem 'haml', '~> 5.2.2'
-gem 'redcarpet'
 gem 'rack-contrib'
 
 # NCBO gems (can be from a local dev path or from rubygems/git)
